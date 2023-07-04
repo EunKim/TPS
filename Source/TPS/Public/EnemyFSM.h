@@ -17,8 +17,7 @@ enum class EEnemyState : uint8
 	Damage,
 	Die
 
-};
-
+}; 
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
 class TPS_API UEnemyFSM : public UActorComponent
 {

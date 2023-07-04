@@ -85,7 +85,8 @@ void UEnemyFSM::MoveState()
 	/*FVector P = me->GetActorLocation() + direction * speed * GetWorld()->DeltaTimeSeconds;
 	//3. 이동하고 싶다.
 	me->SetActorLocation(P);*/
-	me->AddMovementInput(direction);
+	me->AddMovementInput(direction); 
+
 
 	/*/direction.Z = 0;
 	//타겟방향으로 회전하기
